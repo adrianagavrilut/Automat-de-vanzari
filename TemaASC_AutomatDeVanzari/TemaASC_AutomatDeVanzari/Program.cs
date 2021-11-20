@@ -10,14 +10,10 @@ namespace TemaASC_AutomatDeVanzari
     {
         static void Main(string[] args)
         {
-            //int n = 5;
-            //int d = 10;
-            //int q = 25;
             int contor = 0;
             bool isRunning = true;
             Console.WriteLine("Bine ati venit! Aveti doua optiuni:");
             Console.WriteLine("1 - introduceti monede.");
-            Console.WriteLine("2 - scoateti marfa.");
             Console.WriteLine("0 - La revedere.");
             while (isRunning)
             {
@@ -28,9 +24,6 @@ namespace TemaASC_AutomatDeVanzari
                         break;
                     case 1:
                         InputMoney(ref contor);
-                        break;
-                    case 2:
-                        OutputMerchandise(ref contor);
                         break;
                     default:
                         Console.WriteLine("Optiune invalida");
@@ -45,6 +38,7 @@ namespace TemaASC_AutomatDeVanzari
             
             while (input)
             {
+                Console.WriteLine();
                 Console.WriteLine("Vreti sa introduceti monede?");
                 Console.WriteLine(" 1. DA");
                 Console.WriteLine(" 2. NU");
@@ -63,19 +57,54 @@ namespace TemaASC_AutomatDeVanzari
                         {
                             contor += n;
                             Console.WriteLine($"In aparat sunt {contor} centi.");
+
+                            if (contor < 20)
+                            {
+                                Console.WriteLine("Nu puteti achizitiona marfa");
+                            }
+                            else if (contor == 20)
+                            {
+                                Console.WriteLine("Primiti marfa fara rest");
+                            }
+                            else
+                            {
+                                contor -= 20;
+                                Console.WriteLine($"Primiti marfa si restul este {contor}. ");
+                                if (contor == 5)
+                                {
+                                    Console.WriteLine("Primiti rest un nickel");
+                                    contor -= 5;
+                                    Console.WriteLine($"In aparat raman {contor} centi");
+                                }
+                                if (contor == 10)
+                                {
+                                    Console.WriteLine("Primiti rest un dime");
+                                    contor -= 10;
+                                    Console.WriteLine($"In aparat raman {contor} centi");
+                                }
+                                if (contor == 15)
+                                {
+                                    Console.WriteLine("Primiti rest un nickel si un dime");
+                                    contor -= 15;
+                                    Console.WriteLine($"In aparat raman {contor} centi");
+                                }
+                                if (contor >= 20)
+                                {
+                                    Console.WriteLine("Primiti rest un nickel si un dime");
+                                    contor -= 15;
+                                    Console.WriteLine($"In aparat raman {contor} centi");
+                                }
+                            }
                         }
                         break;
                     case 2:
+                        input = false;
                         break;
                     default:
                         Console.WriteLine("Optiune invalida");
                         break;
                 }
             }
-        }
-        private static void OutputMerchandise(ref int contor)
-        {
-
         }
     }
 }
