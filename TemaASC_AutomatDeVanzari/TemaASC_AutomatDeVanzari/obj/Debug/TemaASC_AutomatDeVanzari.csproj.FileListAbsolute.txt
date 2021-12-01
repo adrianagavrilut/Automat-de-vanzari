@@ -1,7 +1,0 @@
-C:\Users\hp\source\repos\ASC_curs_lab\AutomatDeVanzari\TemaASC_AutomatDeVanzari\TemaASC_AutomatDeVanzari\bin\Debug\TemaASC_AutomatDeVanzari.exe.config
-C:\Users\hp\source\repos\ASC_curs_lab\AutomatDeVanzari\TemaASC_AutomatDeVanzari\TemaASC_AutomatDeVanzari\bin\Debug\TemaASC_AutomatDeVanzari.exe
-C:\Users\hp\source\repos\ASC_curs_lab\AutomatDeVanzari\TemaASC_AutomatDeVanzari\TemaASC_AutomatDeVanzari\bin\Debug\TemaASC_AutomatDeVanzari.pdb
-C:\Users\hp\source\repos\ASC_curs_lab\AutomatDeVanzari\TemaASC_AutomatDeVanzari\TemaASC_AutomatDeVanzari\obj\Debug\TemaASC_AutomatDeVanzari.csproj.AssemblyReference.cache
-C:\Users\hp\source\repos\ASC_curs_lab\AutomatDeVanzari\TemaASC_AutomatDeVanzari\TemaASC_AutomatDeVanzari\obj\Debug\TemaASC_AutomatDeVanzari.csproj.CoreCompileInputs.cache
-C:\Users\hp\source\repos\ASC_curs_lab\AutomatDeVanzari\TemaASC_AutomatDeVanzari\TemaASC_AutomatDeVanzari\obj\Debug\TemaASC_AutomatDeVanzari.exe
-C:\Users\hp\source\repos\ASC_curs_lab\AutomatDeVanzari\TemaASC_AutomatDeVanzari\TemaASC_AutomatDeVanzari\obj\Debug\TemaASC_AutomatDeVanzari.pdb
